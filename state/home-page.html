@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>Chess Engine</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta charset="UTF-8"> 
+<style>
+body {
+    font-family:chess;
+    margin: auto;
+    background: url(../state/background-image.jpg) 1000%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+}
+
+.opsi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  text-decoration: none;
+  background: #ffffffb5;
+  color : #444;
+  padding: 0px 12px;
+  line-height: 35px;
+  border: 1px solid #FFF;
+  border-radius: 10px;
+  float: left;
+  box-shadow: 0px 0px 20px 3px lightblue inset;
+}
+
+a{
+  justify-items: center;
+  display: grid;
+  text-decoration: none;
+  color: #9c079c;
+  box-shadow: 1px 5px 5px 1px #444;
+  margin: 10px;
+}
+
+a:hover{
+  text-shadow: 0 1px 1px rgba(3, 153, 240, 0.5);
+  transform-origin: center;
+  animation: animateButton 3s linear infinite;
+}
+
+@keyframes animateButton{
+  0%{
+    transform: perspective(1000px) rotateX(35deg);
+  }
+  50%{
+    transform: perspective(1000px) rotateX(-35deg);
+  }
+  100%{
+    transform: perspective(1000px) rotateX(35deg);
+  }
+}
+
+.center{
+  overflow-wrap: anywhere;
+  text-align: center;
+  height: 2cm;
+  overflow-y: auto;
+}
+
+/* d-display-scroll */
+.n-scrll{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.n-scrll::-webkit-scrollbar {
+    height: 1px;
+    background-color: transparent;
+}
+  
+.n-scrll::-webkit-scrollbar-thumb, .n-scrll::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+</style>
+ </head> 
+ <body> 
+  <div class="body">
+  <div class="isi">
+  <div class="opsi">
+    <h1 style="text-align: center;">Chess War Constellations</h1>
+    <h2 style="text-align: center;">Comp: AquaCenLib</h2>
+    <h3 style="text-align: center;">Select you will play as</h3>
+    <a href="./chess-a.html" style="background-color: white;">White</a>
+    <a href="./chess-b.html" style="background-color: black;">Black</a>
+      <div class="center n-scrll">
+        <p>Jika Menyerah atau mundur, silahkan tekan tombol kiboard:</p>
+        <code>Alt</code> + <code> <- </code>
+        <p>Jika Mengingat permainan sebelumnya, silahkan tekan tombol kiboard:</p>
+        <code>Alt</code> + <code> <- </code> atau
+        <code>Alt</code> + <code> -> </code>
+      </div>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
