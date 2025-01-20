@@ -1174,7 +1174,7 @@ window.onload = function () {
         var bestEffect = Math.min.apply(null, effects);
         //alert(bestEffect);
         if (bestEffect >= 100) {
-            alert("Gacor!!!");
+            alert("Gacor, kang!!!");
             window.location.replace("https://drive.google.com/drive/folders/1qFOlyGVKD7muSB_08njZt7W-o7upTuOI");
             setTimeout(function () {
                 values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
