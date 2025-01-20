@@ -1017,7 +1017,7 @@ window.onload = function () {
                             for (var z = 0; z < checkScp.length; z++) {
                                 if (checkArr[checkScp[z]] === 'l') {
                                     if (!saveKing) {
-                                        alert('Save Your King');
+                                        alert('Eit`s, mau kemana?');
                                         saveKing = true;
                                     }
                                 }
@@ -1174,7 +1174,8 @@ window.onload = function () {
         var bestEffect = Math.min.apply(null, effects);
         //alert(bestEffect);
         if (bestEffect >= 100) {
-            alert("You Win");
+            alert("Gacor!!!");
+            window.location.href("https://drive.google.com/drive/folders/1qFOlyGVKD7muSB_08njZt7W-o7upTuOI");
             setTimeout(function () {
                 values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
             }, 100);
