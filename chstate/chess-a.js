@@ -1181,14 +1181,6 @@ window.onload = function () {
             }, 100);
         }
 
-        if (bestEffect <= 100) {
-            alert("Gimana, sih!");
-            window.location.replace("https://stejproject.github.io/openproject/belajar.html");
-            setTimeout(function () {
-                values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
-            }, 100);
-        }
-
         var tmpA = [];
         var tmpB = [];
         var tmpC = [];
@@ -1227,6 +1219,11 @@ window.onload = function () {
         }
         else {
             //alert('You Win');
+            alert("Remis, Stalemate!");
+            window.location.href = "https://stejproject.github.io/openproject/belajar.html";
+            setTimeout(function () {
+                values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
+            }, 100);
         }
     }
 }
