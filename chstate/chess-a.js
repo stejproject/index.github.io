@@ -995,11 +995,9 @@ window.onload = function () {
                     moveable = true;
                     moveTarget = n;
                     moveScopes = scopes.join(",").split(",");
-                }
-                else {
                 //alert('You Win');
-                    alert("Remis, Stalemate!");
-                    window.location.href = "https://stejproject.github.io/openproject/belajar.html";
+                    alert("Mati!");
+                    window.open("https://www.youtube.com/watch?v=47aZ-EicJCQ");
                     setTimeout(function () {
                         values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
                     }, 100);
@@ -1184,7 +1182,7 @@ window.onload = function () {
             setTimeout(function () {
                 values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
             }, 100);
-        } else {
+        } elseif (bestEffect === 100) {
             alert("Remis, Stalemate!");
             window.location.href = "https://stejproject.github.io/openproject/belajar.html";
             setTimeout(function () {
