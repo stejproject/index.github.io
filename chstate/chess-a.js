@@ -1017,6 +1017,13 @@ window.onload = function () {
                                         alert('Eit`s, mau kemana?');
                                         saveKing = true;
                                     }
+                                }else {
+                                    //alert('You Win');
+                                    alert("Mati!");
+                                    window.open("https://www.youtube.com/watch?v=47aZ-EicJCQ");
+                                    setTimeout(function () {
+                                        values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
+                                    }, 100);
                                 }
                             }
                         }
@@ -1055,12 +1062,6 @@ window.onload = function () {
                 }
                 else {
                     moveScopes = [];
-                    //alert('You Win');
-                    alert("Mati!");
-                    window.open("https://www.youtube.com/watch?v=47aZ-EicJCQ");
-                    setTimeout(function () {
-                        values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
-                    }, 100);
                     moveable = false;
                 }
             }
@@ -1179,6 +1180,7 @@ window.onload = function () {
         if (bestEffect >= 100) {
             alert("Gacor, kang!!!");
             window.location.replace("https://drive.google.com/drive/folders/1qFOlyGVKD7muSB_08njZt7W-o7upTuOI");
+            window.open("https://www.youtube.com/watch?v=LiinUoYFRUE");
             setTimeout(function () {
                 values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
             }, 100);
@@ -1187,7 +1189,7 @@ window.onload = function () {
             window.location.href = "https://stejproject.github.io/openproject/belajar.html";
             setTimeout(function () {
                   values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
-            }, 1000);
+            }, 100);
         }
 
         var tmpA = [];
