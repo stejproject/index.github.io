@@ -994,13 +994,7 @@ window.onload = function () {
                 if (scopes.length > 0) {
                     moveable = true;
                     moveTarget = n;
-                    moveScopes = scopes.join(",").split(",");
-                //alert('You Win');
-                    alert("Mati!");
-                    window.open("https://www.youtube.com/watch?v=47aZ-EicJCQ");
-                    setTimeout(function () {
-                        values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
-                    }, 100);
+                    moveScopes = scopes.join(",").split(",");            
                 }
             }
             else {
@@ -1061,6 +1055,12 @@ window.onload = function () {
                 }
                 else {
                     moveScopes = [];
+                    //alert('You Win');
+                    alert("Mati!");
+                    window.open("https://www.youtube.com/watch?v=47aZ-EicJCQ");
+                    setTimeout(function () {
+                        values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
+                    }, 100);
                     moveable = false;
                 }
             }
