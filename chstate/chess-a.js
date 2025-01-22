@@ -1184,7 +1184,7 @@ window.onload = function () {
             setTimeout(function () {
                 values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
             }, 100);
-        } elseif (bestEffect === 100) {
+        } elseif (bestEffect = 100) {
             alert("Remis, Stalemate!");
             window.location.href = "https://stejproject.github.io/openproject/belajar.html";
             setTimeout(function () {
