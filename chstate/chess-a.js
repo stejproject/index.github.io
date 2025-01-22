@@ -1017,14 +1017,15 @@ window.onload = function () {
                                         alert('Eit`s, mau kemana?');
                                         saveKing = true;
                                     }
-                                }else {
-                                    //alert('You Win');
-                                    alert("Mati!");
-                                    window.open("https://www.youtube.com/watch?v=47aZ-EicJCQ");
-                                    setTimeout(function () {
-                                        values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
-                                    }, 100);
                                 }
+                                // else {
+                                //     //alert('You Win');
+                                //     alert("Mati!");
+                                //     window.open("https://www.youtube.com/watch?v=47aZ-EicJCQ");
+                                //     setTimeout(function () {
+                                //         values = ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 't', 'm', 'v', 'w', 'l', 'v', 'm', 't'];
+                                //     }, 100);
+                                // }
                             }
                         }
                     }
